@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AnimationExamples</string>
+    <string name="progress_template">%d %%</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="click_one_of_the_buttons_to_see_animation">Click one of the buttons to see animation</string>
+    <string name="frame_by_frame_animation">Frame-by-frame animation</string>
+    <string name="view_animation">View anim</string>
+    <string name="value_animation">Value anim</string>
+    <string name="object_animation">Object animation</string>
+    <string name="customview_animation">CustomView animation</string>
+</resources>

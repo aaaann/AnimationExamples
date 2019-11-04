@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/base_margin"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_anim_drawable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="@dimen/text_size_small"
+            android:text="@string/frame_by_frame_animation"/>
+        <Button
+            android:id="@+id/btn_anim_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/view_animation"
+            android:textSize="13sp"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/btn_anim_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/value_animation"
+            android:textSize="13sp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/margin_top_small">
+        <Button
+            android:id="@+id/btn_anim_object"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/object_animation"
+            android:textSize="13sp"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/btn_anim_custom_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/customview_animation"
+            android:textSize="13sp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fragment_animation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/margin_top_big"
+        android:background="@android:color/white"
+        />
+
+
+</LinearLayout>

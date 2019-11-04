@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="base_margin">16dp</dimen>
+    <dimen name="defaultTextSize">32sp</dimen>
+    <dimen name="defaultStrokeWidth">16dp</dimen>
+    <dimen name="view_animation_iv_size">150dp</dimen>
+    <dimen name="standard_iv_size">100dp</dimen>
+    <dimen name="standard_margin">16dp</dimen>
+    <dimen name="margin_top_big">30dp</dimen>
+    <dimen name="margin_top_small">10dp</dimen>
+    <dimen name="text_size_small">13sp</dimen>
+    <dimen name="translationY">150dp</dimen>
+</resources>
